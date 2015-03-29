@@ -1,8 +1,16 @@
 #include <stdio.h>
-void main()
+#include <time.h>
+#include <stdlib.h>
+int main()
 {
-	
-	printf("hello world"); 
-	printf("hello world");
-	
+	int card[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9};
+	char card[4] = { k, q, j };
+	srand(time(NULL));
+	int card[] = (rand() % 11);
+	printf("%c", card);
+	for (;;);
+
+
+
+
 }
